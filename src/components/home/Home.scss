@@ -1,0 +1,29 @@
+.main_container {
+  display: flex;
+  align-items: center;
+
+  padding: 14rem 5rem 0 5rem;
+
+  .content {
+    margin-right: 6rem;
+
+    .title {
+      font-size: 1.8rem;
+      font-weight: bold;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    p {
+      margin-top: 2rem;
+
+      line-height: normal;
+
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+
+  img {
+    width: 30rem;
+    height: 30rem;
+  }
+}
