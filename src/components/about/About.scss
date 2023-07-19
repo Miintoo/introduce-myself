@@ -1,0 +1,48 @@
+.container {
+  margin-top: 15rem;
+  padding: 0 5rem;
+
+  .title {
+    margin-bottom: 8rem;
+
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .container_item {
+    display: flex;
+
+    width: 80%;
+    margin: 0 auto 3rem;
+    padding: 1rem;
+    // margin-bottom: 3rem;
+
+    &:hover {
+      box-shadow: 5px 5px 5px 5px rgba(211, 202, 202, 0.998);
+      transition: box-shadow 0.4s ease-out;
+    }
+
+    img {
+      width: 10rem;
+      height: 10rem;
+    }
+
+    div {
+      display: flex;
+      justify-content: space-between;
+
+      width: 100%;
+      padding-left: 3rem;
+
+      h3 {
+        font-size: 1.3rem;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      span {
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+  }
+}
