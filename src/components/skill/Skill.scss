@@ -1,0 +1,22 @@
+.skills_container {
+  width: 60%;
+  margin: auto;
+  padding: 0 10rem;
+
+  div {
+    margin-bottom: 3rem;
+
+    h3 {
+      margin-bottom: 2rem;
+
+      font-size: 1.3rem;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    li {
+      list-style-type: disc;
+      line-height: normal;
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+}
