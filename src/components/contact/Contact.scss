@@ -1,0 +1,17 @@
+.contact_logo_container {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 50rem;
+  margin: auto;
+
+  img {
+    width: 7rem;
+    height: 7rem;
+
+    &:hover {
+      scale: 1.1;
+      transition: scale 0.4s ease-out;
+    }
+  }
+}
