@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import './About.scss';
 
-export default function About() {
+export default forwardRef(function About(props, ref) {
   return (
-    <div className="container">
+    <div className="container" ref={ref}>
       <h2 className="title">About Me</h2>
       <div className="container_item">
         <img src="/assets/elice.png" alt="교육 과정 로고 입니다." />
@@ -29,4 +29,4 @@ export default function About() {
       </div>
     </div>
   );
-}
+});

@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import './Contact.scss';
 
-export default function Contact() {
+export default forwardRef(function Contact(props, ref) {
   return (
-    <div className="container">
+    <div className="container" ref={ref}>
       <h2 className="title">Contact Me</h2>
       <ul className="contact_logo_container">
         <li>
@@ -24,4 +24,4 @@ export default function Contact() {
       </ul>
     </div>
   );
-}
+});

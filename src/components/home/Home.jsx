@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import './Home.scss';
 import TypeIt from 'typeit-react';
 
-export default function Home() {
+export default forwardRef(function Home(props, ref) {
   return (
-    <main className="main_container">
+    <main className="main_container" ref={ref}>
       <div className="content">
         <TypeIt
           options={{
@@ -27,4 +27,4 @@ export default function Home() {
       <img src="/assets/profile.gif" alt="프로필 이미지 입니다." />
     </main>
   );
-}
+});

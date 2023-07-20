@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import './Skill.scss';
 
-export default function Skill() {
+export default forwardRef(function Skill(props, ref) {
   return (
-    <div className="container">
+    <div className="container" ref={ref}>
       <h2 className="title">Skills</h2>
       <div className="skills_container">
         <div>
@@ -63,4 +63,4 @@ export default function Skill() {
       </div>
     </div>
   );
-}
+});
