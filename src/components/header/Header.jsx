@@ -4,7 +4,9 @@ import './Header.scss';
 export default function Header() {
   return (
     <header className="header">
-      <h1 className="title">MINTO</h1>
+      <h1 className="title">
+        <a href="/">MINTO</a>
+      </h1>
       <ul className="nav_container">
         <li>Home</li>
         <li>About</li>
