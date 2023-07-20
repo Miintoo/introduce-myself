@@ -16,7 +16,6 @@
     width: 80%;
     margin: 0 auto 3rem;
     padding: 1rem;
-    // margin-bottom: 3rem;
 
     &:hover {
       box-shadow: 5px 5px 5px 5px rgba(211, 202, 202, 0.998);
@@ -38,6 +37,7 @@
       h3 {
         font-size: 1.3rem;
         font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
       }
 
       span {
