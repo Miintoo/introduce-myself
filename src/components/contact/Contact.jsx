@@ -4,7 +4,7 @@ import './Contact.scss';
 export default function Contact() {
   return (
     <div className="container">
-      <h2 className="title">About Me</h2>
+      <h2 className="title">Contact Me</h2>
       <ul className="contact_logo_container">
         <li>
           <a href="https://github.com/Miintoo">
