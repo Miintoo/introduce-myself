@@ -1,0 +1,24 @@
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #eff2f8;
+
+  .content {
+    width: 45rem;
+
+    font-size: 3rem;
+    font-family: 'main_font';
+
+    white-space: pre-wrap;
+    line-height: normal;
+
+    p {
+      margin-bottom: 2rem;
+    }
+  }
+}
