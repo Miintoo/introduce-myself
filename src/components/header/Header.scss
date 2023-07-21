@@ -11,7 +11,8 @@
 
   background-color: white;
 
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'main_font';
+
   box-shadow: 1px 1px 1px 1px whitesmoke;
 
   .title {
@@ -29,16 +30,18 @@
     display: flex;
     justify-content: space-between;
 
+    opacity: 0.5;
     cursor: pointer;
 
     li {
-      padding-left: 2rem;
-      border-radius: 0.4rem;
+      padding: 0.5rem 1rem;
+      border-radius: 1rem;
     }
 
     li:hover {
-      opacity: 0.4;
-      transition: opacity 0.2s ease-out;
+      background-color: #6a75ca;
+      color: white;
+      transition: all 0.2s ease-out;
     }
   }
 }
