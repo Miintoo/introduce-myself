@@ -1,12 +1,13 @@
 @mixin containerStyles {
+  height: 100vh;
   margin-top: 15rem;
   padding: 0 5rem;
 }
 
 @mixin titleStyles {
   margin-bottom: 8rem;
-  text-decoration: underline;
+  color: #6a75ca;
   text-align: center;
   font-size: 3rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'main_font';
 }
