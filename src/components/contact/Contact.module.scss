@@ -21,6 +21,18 @@
   width: 50rem;
   margin: auto;
 
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'main_font';
+
+    span {
+      margin-top: 0.7rem;
+    }
+  }
+
   img {
     width: 7rem;
     height: 7rem;
