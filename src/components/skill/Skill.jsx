@@ -1,11 +1,11 @@
 import React, { forwardRef } from 'react';
-import './Skill.scss';
+import styles from './Skill.module.scss';
 
 export default forwardRef(function Skill(props, ref) {
   return (
-    <div className="container" ref={ref}>
-      <h2 className="title">Skills</h2>
-      <div className="skills_container">
+    <div className={styles.container} ref={ref}>
+      <h2 className={styles.title}>Skills</h2>
+      <div className={styles.skills_container}>
         <div>
           <h3>React</h3>
           <ul>

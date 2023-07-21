@@ -1,11 +1,11 @@
 import React, { forwardRef } from 'react';
-import './Contact.scss';
+import styles from './Contact.module.scss';
 
 export default forwardRef(function Contact(props, ref) {
   return (
-    <div className="container" ref={ref}>
-      <h2 className="title">Contact Me</h2>
-      <ul className="contact_logo_container">
+    <div className={styles.container} ref={ref}>
+      <h2 className={styles.title}>Contact Me</h2>
+      <ul className={styles.contact_logo_container}>
         <li>
           <a href="https://github.com/Miintoo">
             <img src="/assets/github.png" alt="깃헙 로고 이미지" />

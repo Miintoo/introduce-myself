@@ -1,13 +1,10 @@
+@import '/src/styles/global.scss';
+
 .container {
-  margin-top: 15rem;
-  padding: 0 5rem;
+  @include containerStyles;
 
   .title {
-    margin-bottom: 8rem;
-    text-decoration: underline;
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'Open Sans', sans-serif;
+    @include titleStyles;
   }
 
   .container_item {
