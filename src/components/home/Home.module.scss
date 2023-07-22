@@ -6,13 +6,22 @@
   width: 100vw;
   height: 100vh;
 
-  background-color: #eff2f8;
+  background-image: url('/assets/background.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .comment {
+    font-size: 1.1rem;
+  }
 
   .content {
     width: 45rem;
 
+    color: white;
+
     font-size: 3rem;
     font-family: 'main_font';
+    text-align: center;
 
     white-space: pre-wrap;
     line-height: normal;
