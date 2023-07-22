@@ -7,38 +7,28 @@
     @include titleStyles;
   }
 
-  .container_item {
+  .profile {
     display: flex;
-
-    width: 80%;
-    margin: 0 auto 3rem;
-    padding: 1rem;
-
-    &:hover {
-      box-shadow: 5px 5px 5px 5px rgba(211, 202, 202, 0.998);
-      transition: box-shadow 0.4s ease-out;
-    }
+    justify-content: center;
+    align-items: center;
 
     img {
-      width: 10rem;
-      height: 10rem;
+      width: 20rem;
+      height: 30rem;
+      margin-right: 6rem;
+
+      border-radius: 1.3rem;
     }
 
-    div {
-      display: flex;
-      justify-content: space-between;
+    ul {
+      padding-top: 5rem;
+      height: 30rem;
 
-      width: 100%;
-      padding-left: 3rem;
+      li {
+        margin-bottom: 2rem;
 
-      h3 {
-        font-size: 1.3rem;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: bold;
-      }
-
-      span {
-        font-family: 'Open Sans', sans-serif;
+        font-size: 1.4rem;
+        font-family: 'main_font';
       }
     }
   }
