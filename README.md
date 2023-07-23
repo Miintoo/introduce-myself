@@ -15,6 +15,8 @@ React를 이용한 자기소개를 정적 페이지입니다.
 [test] : 테스트 코드 수정 및 변경
 [chore] : 그 외 사소한 변경
 
+main은 배포용 branch이고 dev에 개발 기능을 feat branch로 따서 작업후 merge 방식으로 branch를 관리했습니다.
+
 ## 사용 라이브러리
 
 - React
@@ -22,3 +24,8 @@ React를 이용한 자기소개를 정적 페이지입니다.
 - SCSS
 - React-Slick
 - Typeit
+
+## 프로젝트 사용방법
+
+1. npm install
+2. npm run start
