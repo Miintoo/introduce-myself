@@ -1,0 +1,41 @@
+.container {
+  width: 55rem;
+  height: 31rem;
+  margin: auto;
+  border-radius: 1.5rem;
+
+  background-color: white;
+
+  font-family: 'main_font';
+  line-height: normal;
+
+  .content {
+    display: flex;
+    justify-content: center;
+    height: 92%;
+    padding: 3rem;
+
+    h4 {
+      margin-bottom: 3rem;
+
+      font-size: 2.1rem;
+      text-align: center;
+    }
+
+    img {
+      width: 9rem;
+      height: 8rem;
+
+      margin: 0 auto 3rem;
+    }
+
+    ul {
+      padding: 0 3rem;
+
+      li {
+        margin-bottom: 0.8rem;
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
